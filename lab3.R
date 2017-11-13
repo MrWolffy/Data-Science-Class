@@ -28,7 +28,7 @@ plot(crime.lm,which = c(1, 2))
 #Question 2
 #(a)
 data.wdi = WDI(indicator = c('NY.GDP.MKTP.CD', 'NE.GDI.FTOT.KD', 'NE.CON.PRVT.KD', 'NE.CON.GOVT.KD'), 
-               #use GDP per capita as y variable
+               #use GDP as y variable
                #use fixed investment, private consumption and government consumption as x variables
            country = 'all', start = 2005, end = 2012)
 head(data.wdi)
